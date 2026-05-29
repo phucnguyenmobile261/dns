@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array/>
+				<key>ServerName</key>
+				<string>adguard-dns (235dfa8b)</string>
+				<key>ServerURL</key>
+				<string>https://d.adguard-dns.com/dns-query/235dfa8b</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>FMI_IPHONE (zalo: 0965826765)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.adguard-dns.235dfa8b</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>F1DB50E2-9EAB-41A6-9EBB-BCE396309555</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadRemovalDisallowed</key>
+			<true/>
+		</dict>
+	</array>
+
+	<key>PayloadDescription</key>
+	<string>FIND FMI BY MOD PHUCNGUYENMOBILE  
+- thêm filter lọc quảng cáo 
+- thêm chặn link spam lừa đảo. 
+- vì hoạt động qua DNS nên máy sẽ gần như không hao pin 🔋
+- Chặn block find devices iPhone .(share bằng airDrop để không bị khóa khi bật wifi)
+- Lưu ý ⚠️: không nên dùng VPN và các app fake VPN (có thể bị khoá niếu dùng ) </string>
+
+	<key>PayloadDisplayName</key>
+	<string>FMI_IPHONE (zalo 📞: 0965826765)</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.adguard-dns.235dfa8b</string>
+
+	<key>PayloadOrganization</key>
+	<string>Phuc Nguyen Mobile - 📞 0965826765</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+
+	<key>PayloadScope</key>
+	<string>System</string>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadUUID</key>
+	<string>29663F90-7F28-46E9-90BB-443AD4F1EAC0</string>
+
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
